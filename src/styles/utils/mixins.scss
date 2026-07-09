@@ -17,10 +17,11 @@
 }
 
 @mixin quantity-coloms($count) {
-  grid-template-columns: repeat($count, auto);
+  grid-template-columns: repeat($count, 200px);
 }
 
 @mixin hover {
   cursor: pointer;
   transition-duration: 300ms;
+  transition-timing-function: ease;
 }
